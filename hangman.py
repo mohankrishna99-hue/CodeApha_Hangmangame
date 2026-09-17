@@ -13,7 +13,7 @@ def play_hangman():
     max_incorrect = 6
 
     print("=" * 40)
-    print("------ WELCOME TO HANGMAN GAME! ------       ")
+    print("------ WELCOME TO HANGMAN GAME! ------")
     print("=" * 40)
     print(f"Guess the secret word! It has {len(secret_word)} letters.")
     print(f"You are allowed a maximum of {max_incorrect} incorrect guesses.\n")
